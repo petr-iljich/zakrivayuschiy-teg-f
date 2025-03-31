@@ -180,7 +180,6 @@
   min-inline-size: 27px;
   background-color: var(--bg-color);
   box-shadow: none;
-  border: none;
   align-items: center;
   border: 2px solid var(--icon-border-color);
   padding: 0;
@@ -290,7 +289,7 @@
   inline-size: 100%;
 }
 
-.dialog-text{
+.dialog-text {
   display: inline-flex;
   font-family: var(--accent-font), fantasy;
   font-size: clamp(0.875rem, 0.875rem + 0vw, 0.875rem);
