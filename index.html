@@ -3,7 +3,6 @@
   <head>
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <meta name="color-scheme" content="light dark">
     <title>Закрывающий тег</title>
     <link rel="stylesheet" href="./fonts/fonts.css"/>
     <link rel="stylesheet" href="./styles/variables.css"/>
@@ -15,8 +14,8 @@
   </head>
   <body class="page">
     <header class="header">
-      <h1 class="title header__title">&lt;/HTML&gt;</h1>
-      <p class="title header__subtitle">Закрывающий тег</p>
+      <span class="title header__logo">&lt;/HTML&gt;</span>
+      <h1 class="title header__title">Закрывающий тег</h1>
     </header>
     <main class="main">
       <article class="article">
@@ -38,8 +37,8 @@
             Castis omnia casta.
           </p>
           <div class="like-container">
-            <button class="card__icon-button">
-              <svg class="button like-icon is-liked" width="39" height="36" viewBox="0 0 39 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <button class="card__icon-button" type="button">
+              <svg class="like-icon" width="39" height="36" viewBox="0 0 39 36" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <g class="heart">
                   <path class="contour" d="M12 6H9V9H12V6ZM15 6H12V9H15V6ZM9 9H6V12H9V9ZM9 12H6V15H9V12ZM9 15H6V18H9V15ZM18 6H15V9H18V6ZM12 18H9V21H12V18ZM15 21H12V24H15V21ZM18 24H15V27H18V24ZM27 6H30V9H27V6ZM24 6H27V9H24V6ZM30 9H33V12H30V9ZM30 12H33V15H30V12ZM30 15H33V18H30V15ZM21 6H24V9H21V6ZM27 18H30V21H27V18ZM24 21H27V24H24V21ZM21 24H24V27H21V24ZM21 27H18V30H21V27ZM21 9H18V12H21V9Z" fill="var(--main-color)"/>
                   <path class="main-body" d="M12 9H9V12H12V9ZM15 12H12V15H15V12ZM18 9H15V12H18V9ZM12 15H9V18H12V15ZM15 15H12V18H15V15ZM15 18H12V21H15V18ZM18 12H15V15H18V12ZM18 21H15V24H18V21ZM18 18H15V21H18V18ZM27 9H30V12H27V9ZM24 9H27V12H24V9ZM27 12H30V15H27V12ZM24 12H27V15H24V12ZM21 9H24V12H21V9ZM27 15H30V18H27V15ZM24 15H27V18H24V15ZM24 18H27V21H24V18ZM21 12H24V15H21V12ZM21 21H24V24H21V21ZM21 18H24V21H21V18ZM21 21H18V24H21V21ZM21 24H18V27H21V24Z" fill="none"/>
@@ -48,7 +47,7 @@
                 <path class="sparks" d="M36 13H39V16H36V13ZM27 27H30V30H27V27ZM18 33H21V36H18V33ZM9 27H12V30H9V27ZM24 0H27V3H24V0ZM33 3H36V6H33V3ZM3 3H6V6H3V3ZM12 0H15V3H12V0ZM0 13H3V16H0V13Z" fill="var(--sparks-color)"/>
               </svg>
             </button>
-            <button class="button card__like-button">
+            <button class="button card__like-button" type="button">
               <span class="button__text">Like</span>
             </button>
           </div>
@@ -74,8 +73,8 @@
             Carmina nulla canam.
           </p>
           <div class="like-container">
-            <button class="card__icon-button">
-              <svg class="button like-icon is-liked" width="39" height="36" viewBox="0 0 39 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <button class="card__icon-button" type="button">
+              <svg class="like-icon" width="39" height="36" viewBox="0 0 39 36" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <g class="heart">
                   <path class="contour" d="M12 6H9V9H12V6ZM15 6H12V9H15V6ZM9 9H6V12H9V9ZM9 12H6V15H9V12ZM9 15H6V18H9V15ZM18 6H15V9H18V6ZM12 18H9V21H12V18ZM15 21H12V24H15V21ZM18 24H15V27H18V24ZM27 6H30V9H27V6ZM24 6H27V9H24V6ZM30 9H33V12H30V9ZM30 12H33V15H30V12ZM30 15H33V18H30V15ZM21 6H24V9H21V6ZM27 18H30V21H27V18ZM24 21H27V24H24V21ZM21 24H24V27H21V24ZM21 27H18V30H21V27ZM21 9H18V12H21V9Z" fill="var(--main-color)"/>
                   <path class="main-body" d="M12 9H9V12H12V9ZM15 12H12V15H15V12ZM18 9H15V12H18V9ZM12 15H9V18H12V15ZM15 15H12V18H15V15ZM15 18H12V21H15V18ZM18 12H15V15H18V12ZM18 21H15V24H18V21ZM18 18H15V21H18V18ZM27 9H30V12H27V9ZM24 9H27V12H24V9ZM27 12H30V15H27V12ZM24 12H27V15H24V12ZM21 9H24V12H21V9ZM27 15H30V18H27V15ZM24 15H27V18H24V15ZM24 18H27V21H24V18ZM21 12H24V15H21V12ZM21 21H24V24H21V21ZM21 18H24V21H21V18ZM21 21H18V24H21V21ZM21 24H18V27H21V24Z" fill="none"/>
@@ -84,7 +83,7 @@
                 <path class="sparks" d="M36 13H39V16H36V13ZM27 27H30V30H27V27ZM18 33H21V36H18V33ZM9 27H12V30H9V27ZM24 0H27V3H24V0ZM33 3H36V6H33V3ZM3 3H6V6H3V3ZM12 0H15V3H12V0ZM0 13H3V16H0V13Z" fill="var(--sparks-color)"/>
               </svg>
             </button>
-            <button class="button card__like-button">
+            <button type="button" class="button card__like-button">
               <span class="button__text">Like</span>
             </button>
           </div>
@@ -109,8 +108,8 @@
             Dulce laudari a laudato viro.
           </p>
           <div class="like-container">
-            <button class="card__icon-button">
-              <svg class="button like-icon is-liked" width="39" height="36" viewBox="0 0 39 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <button type="button" class="card__icon-button">
+              <svg class="like-icon" width="39" height="36" viewBox="0 0 39 36" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <g class="heart">
                   <path class="contour" d="M12 6H9V9H12V6ZM15 6H12V9H15V6ZM9 9H6V12H9V9ZM9 12H6V15H9V12ZM9 15H6V18H9V15ZM18 6H15V9H18V6ZM12 18H9V21H12V18ZM15 21H12V24H15V21ZM18 24H15V27H18V24ZM27 6H30V9H27V6ZM24 6H27V9H24V6ZM30 9H33V12H30V9ZM30 12H33V15H30V12ZM30 15H33V18H30V15ZM21 6H24V9H21V6ZM27 18H30V21H27V18ZM24 21H27V24H24V21ZM21 24H24V27H21V24ZM21 27H18V30H21V27ZM21 9H18V12H21V9Z" fill="var(--main-color)"/>
                   <path class="main-body" d="M12 9H9V12H12V9ZM15 12H12V15H15V12ZM18 9H15V12H18V9ZM12 15H9V18H12V15ZM15 15H12V18H15V15ZM15 18H12V21H15V18ZM18 12H15V15H18V12ZM18 21H15V24H18V21ZM18 18H15V21H18V18ZM27 9H30V12H27V9ZM24 9H27V12H24V9ZM27 12H30V15H27V12ZM24 12H27V15H24V12ZM21 9H24V12H21V9ZM27 15H30V18H27V15ZM24 15H27V18H24V15ZM24 18H27V21H24V18ZM21 12H24V15H21V12ZM21 21H24V24H21V21ZM21 18H24V21H21V18ZM21 21H18V24H21V21ZM21 24H18V27H21V24Z" fill="none"/>
@@ -119,7 +118,7 @@
                 <path class="sparks" d="M36 13H39V16H36V13ZM27 27H30V30H27V27ZM18 33H21V36H18V33ZM9 27H12V30H9V27ZM24 0H27V3H24V0ZM33 3H36V6H33V3ZM3 3H6V6H3V3ZM12 0H15V3H12V0ZM0 13H3V16H0V13Z" fill="var(--sparks-color)"/>
               </svg>
             </button>
-            <button class="button card__like-button">
+            <button type="button" class="button card__like-button">
               <span class="button__text">Like</span>
             </button>
           </div>
@@ -146,8 +145,8 @@
             Auspicia sunt fausta.
           </p>
           <div class="like-container">
-            <button class="card__icon-button">
-              <svg class="button like-icon is-liked" width="39" height="36" viewBox="0 0 39 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <button type="button" class="card__icon-button">
+              <svg class="like-icon" width="39" height="36" viewBox="0 0 39 36" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <g class="heart">
                   <path class="contour" d="M12 6H9V9H12V6ZM15 6H12V9H15V6ZM9 9H6V12H9V9ZM9 12H6V15H9V12ZM9 15H6V18H9V15ZM18 6H15V9H18V6ZM12 18H9V21H12V18ZM15 21H12V24H15V21ZM18 24H15V27H18V24ZM27 6H30V9H27V6ZM24 6H27V9H24V6ZM30 9H33V12H30V9ZM30 12H33V15H30V12ZM30 15H33V18H30V15ZM21 6H24V9H21V6ZM27 18H30V21H27V18ZM24 21H27V24H24V21ZM21 24H24V27H21V24ZM21 27H18V30H21V27ZM21 9H18V12H21V9Z" fill="var(--main-color)"/>
                   <path class="main-body" d="M12 9H9V12H12V9ZM15 12H12V15H15V12ZM18 9H15V12H18V9ZM12 15H9V18H12V15ZM15 15H12V18H15V15ZM15 18H12V21H15V18ZM18 12H15V15H18V12ZM18 21H15V24H18V21ZM18 18H15V21H18V18ZM27 9H30V12H27V9ZM24 9H27V12H24V9ZM27 12H30V15H27V12ZM24 12H27V15H24V12ZM21 9H24V12H21V9ZM27 15H30V18H27V15ZM24 15H27V18H24V15ZM24 18H27V21H24V18ZM21 12H24V15H21V12ZM21 21H24V24H21V21ZM21 18H24V21H21V18ZM21 21H18V24H21V21ZM21 24H18V27H21V24Z" fill="none"/>
@@ -156,7 +155,7 @@
                 <path class="sparks" d="M36 13H39V16H36V13ZM27 27H30V30H27V27ZM18 33H21V36H18V33ZM9 27H12V30H9V27ZM24 0H27V3H24V0ZM33 3H36V6H33V3ZM3 3H6V6H3V3ZM12 0H15V3H12V0ZM0 13H3V16H0V13Z" fill="var(--sparks-color)"/>
               </svg>
             </button>
-            <button class="button card__like-button">
+            <button type="button" class="button card__like-button">
               <span class="button__text">Like</span>
             </button>
           </div>
@@ -184,8 +183,8 @@
             Barbam video, sed philosophum non video.
           </p>
           <div class="like-container">
-            <button class="card__icon-button">
-              <svg class="button like-icon is-liked" width="39" height="36" viewBox="0 0 39 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <button type="button" class="card__icon-button">
+              <svg class="like-icon" width="39" height="36" viewBox="0 0 39 36" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <g class="heart">
                   <path class="contour" d="M12 6H9V9H12V6ZM15 6H12V9H15V6ZM9 9H6V12H9V9ZM9 12H6V15H9V12ZM9 15H6V18H9V15ZM18 6H15V9H18V6ZM12 18H9V21H12V18ZM15 21H12V24H15V21ZM18 24H15V27H18V24ZM27 6H30V9H27V6ZM24 6H27V9H24V6ZM30 9H33V12H30V9ZM30 12H33V15H30V12ZM30 15H33V18H30V15ZM21 6H24V9H21V6ZM27 18H30V21H27V18ZM24 21H27V24H24V21ZM21 24H24V27H21V24ZM21 27H18V30H21V27ZM21 9H18V12H21V9Z" fill="var(--main-color)"/>
                   <path class="main-body" d="M12 9H9V12H12V9ZM15 12H12V15H15V12ZM18 9H15V12H18V9ZM12 15H9V18H12V15ZM15 15H12V18H15V15ZM15 18H12V21H15V18ZM18 12H15V15H18V12ZM18 21H15V24H18V21ZM18 18H15V21H18V18ZM27 9H30V12H27V9ZM24 9H27V12H24V9ZM27 12H30V15H27V12ZM24 12H27V15H24V12ZM21 9H24V12H21V9ZM27 15H30V18H27V15ZM24 15H27V18H24V15ZM24 18H27V21H24V18ZM21 12H24V15H21V12ZM21 21H24V24H21V21ZM21 18H24V21H21V18ZM21 21H18V24H21V21ZM21 24H18V27H21V24Z" fill="none"/>
@@ -194,7 +193,7 @@
                 <path class="sparks" d="M36 13H39V16H36V13ZM27 27H30V30H27V27ZM18 33H21V36H18V33ZM9 27H12V30H9V27ZM24 0H27V3H24V0ZM33 3H36V6H33V3ZM3 3H6V6H3V3ZM12 0H15V3H12V0ZM0 13H3V16H0V13Z" fill="var(--sparks-color)"/>
               </svg>
             </button>
-            <button class="button card__like-button">
+            <button type="button" class="button card__like-button">
               <span class="button__text">Like</span>
             </button>
           </div>
@@ -219,8 +218,8 @@
             Caesar citra Rubiconem.
           </p>
           <div class="like-container">
-            <button class="card__icon-button">
-              <svg class="button like-icon is-liked" width="39" height="36" viewBox="0 0 39 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <button type="button" class="card__icon-button">
+              <svg class="like-icon" width="39" height="36" viewBox="0 0 39 36" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <g class="heart">
                   <path class="contour" d="M12 6H9V9H12V6ZM15 6H12V9H15V6ZM9 9H6V12H9V9ZM9 12H6V15H9V12ZM9 15H6V18H9V15ZM18 6H15V9H18V6ZM12 18H9V21H12V18ZM15 21H12V24H15V21ZM18 24H15V27H18V24ZM27 6H30V9H27V6ZM24 6H27V9H24V6ZM30 9H33V12H30V9ZM30 12H33V15H30V12ZM30 15H33V18H30V15ZM21 6H24V9H21V6ZM27 18H30V21H27V18ZM24 21H27V24H24V21ZM21 24H24V27H21V24ZM21 27H18V30H21V27ZM21 9H18V12H21V9Z" fill="var(--main-color)"/>
                   <path class="main-body" d="M12 9H9V12H12V9ZM15 12H12V15H15V12ZM18 9H15V12H18V9ZM12 15H9V18H12V15ZM15 15H12V18H15V15ZM15 18H12V21H15V18ZM18 12H15V15H18V12ZM18 21H15V24H18V21ZM18 18H15V21H18V18ZM27 9H30V12H27V9ZM24 9H27V12H24V9ZM27 12H30V15H27V12ZM24 12H27V15H24V12ZM21 9H24V12H21V9ZM27 15H30V18H27V15ZM24 15H27V18H24V15ZM24 18H27V21H24V18ZM21 12H24V15H21V12ZM21 21H24V24H21V21ZM21 18H24V21H21V18ZM21 21H18V24H21V21ZM21 24H18V27H21V24Z" fill="none"/>
@@ -229,7 +228,7 @@
                 <path class="sparks" d="M36 13H39V16H36V13ZM27 27H30V30H27V27ZM18 33H21V36H18V33ZM9 27H12V30H9V27ZM24 0H27V3H24V0ZM33 3H36V6H33V3ZM3 3H6V6H3V3ZM12 0H15V3H12V0ZM0 13H3V16H0V13Z" fill="var(--sparks-color)"/>
               </svg>
             </button>
-            <button class="button card__like-button">
+            <button type="button" class="button card__like-button">
               <span class="button__text">Like</span>
             </button>
           </div>
@@ -256,8 +255,8 @@
             Carthago delenda est. Causa bibendi.
           </p>
           <div class="like-container">
-            <button class="card__icon-button">
-              <svg class="button like-icon is-liked" width="39" height="36" viewBox="0 0 39 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <button type="button" class="card__icon-button">
+              <svg class="like-icon" width="39" height="36" viewBox="0 0 39 36" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <g class="heart">
                   <path class="contour" d="M12 6H9V9H12V6ZM15 6H12V9H15V6ZM9 9H6V12H9V9ZM9 12H6V15H9V12ZM9 15H6V18H9V15ZM18 6H15V9H18V6ZM12 18H9V21H12V18ZM15 21H12V24H15V21ZM18 24H15V27H18V24ZM27 6H30V9H27V6ZM24 6H27V9H24V6ZM30 9H33V12H30V9ZM30 12H33V15H30V12ZM30 15H33V18H30V15ZM21 6H24V9H21V6ZM27 18H30V21H27V18ZM24 21H27V24H24V21ZM21 24H24V27H21V24ZM21 27H18V30H21V27ZM21 9H18V12H21V9Z" fill="var(--main-color)"/>
                   <path class="core" d="M12 9H9V12H12V9ZM15 12H12V15H15V12ZM18 9H15V12H18V9ZM12 15H9V18H12V15ZM15 15H12V18H15V15ZM15 18H12V21H15V18ZM18 12H15V15H18V12ZM18 21H15V24H18V21ZM18 18H15V21H18V18ZM27 9H30V12H27V9ZM24 9H27V12H24V9ZM27 12H30V15H27V12ZM24 12H27V15H24V12ZM21 9H24V12H21V9ZM27 15H30V18H27V15ZM24 15H27V18H24V15ZM24 18H27V21H24V18ZM21 12H24V15H21V12ZM21 21H24V24H21V21ZM21 18H24V21H21V18ZM21 21H18V24H21V21ZM21 24H18V27H21V24Z" fill="none"/>
@@ -266,7 +265,7 @@
                 <path class="sparks" d="M36 13H39V16H36V13ZM27 27H30V30H27V27ZM18 33H21V36H18V33ZM9 27H12V30H9V27ZM24 0H27V3H24V0ZM33 3H36V6H33V3ZM3 3H6V6H3V3ZM12 0H15V3H12V0ZM0 13H3V16H0V13Z" fill="var(--sparks-color)"/>
               </svg>
             </button>
-            <button class="button card__like-button">
+            <button type="button" class="button card__like-button">
               <span class="button__text">Like</span>
             </button>
           </div>
@@ -294,8 +293,8 @@
             Casum sentit dominus. Ut desint vires, tamen est laudanda voluntas.
           </p>
           <div class="like-container">
-            <button class="card__icon-button">
-              <svg class="button like-icon is-liked" width="39" height="36" viewBox="0 0 39 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <button type="button" class="card__icon-button">
+              <svg class="like-icon" width="39" height="36" viewBox="0 0 39 36" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <g class="heart">
                   <path class="contour" d="M12 6H9V9H12V6ZM15 6H12V9H15V6ZM9 9H6V12H9V9ZM9 12H6V15H9V12ZM9 15H6V18H9V15ZM18 6H15V9H18V6ZM12 18H9V21H12V18ZM15 21H12V24H15V21ZM18 24H15V27H18V24ZM27 6H30V9H27V6ZM24 6H27V9H24V6ZM30 9H33V12H30V9ZM30 12H33V15H30V12ZM30 15H33V18H30V15ZM21 6H24V9H21V6ZM27 18H30V21H27V18ZM24 21H27V24H24V21ZM21 24H24V27H21V24ZM21 27H18V30H21V27ZM21 9H18V12H21V9Z" fill="var(--main-color)"/>
                   <path class="main-body" d="M12 9H9V12H12V9ZM15 12H12V15H15V12ZM18 9H15V12H18V9ZM12 15H9V18H12V15ZM15 15H12V18H15V15ZM15 18H12V21H15V18ZM18 12H15V15H18V12ZM18 21H15V24H18V21ZM18 18H15V21H18V18ZM27 9H30V12H27V9ZM24 9H27V12H24V9ZM27 12H30V15H27V12ZM24 12H27V15H24V12ZM21 9H24V12H21V9ZM27 15H30V18H27V15ZM24 15H27V18H24V15ZM24 18H27V21H24V18ZM21 12H24V15H21V12ZM21 21H24V24H21V21ZM21 18H24V21H21V18ZM21 21H18V24H21V21ZM21 24H18V27H21V24Z" fill="none"/>
@@ -304,20 +303,19 @@
                 <path class="sparks" d="M36 13H39V16H36V13ZM27 27H30V30H27V27ZM18 33H21V36H18V33ZM9 27H12V30H9V27ZM24 0H27V3H24V0ZM33 3H36V6H33V3ZM3 3H6V6H3V3ZM12 0H15V3H12V0ZM0 13H3V16H0V13Z" fill="var(--sparks-color)"/>
               </svg>
             </button>
-            <button class="button card__like-button">
+            <button type="button" class="button card__like-button">
               <span class="button__text">Like</span>
             </button>
           </div>
         </div>
       </article>
-    </main>
-    <div class="save-button-container">
-      <button 
+      <button
+        type="button"
         class="button save-button"
         onclick="window['dialog-window'].showModal()" 
         aria-controls="dialog-window">
           <svg class="floppy-image" viewBox="0 0 39 39">
-            <use href="#floppy" />
+            <use href="./svg/floppy-test.svg#floppy"/>
           </svg>
           <span class="button__text">Cохранить на память</span>
       </button>
@@ -325,41 +323,18 @@
         <div class="dialog-container">
           <div class="floppy-block">
             <svg class="floppy-image" viewBox="0 0 39 39">
-              <use href="#floppy" />
+              <use href="./svg/floppy-test.svg#floppy"/>
             </svg>
           </div>
           <p class="dialog-text">Вставьте дискету, чтобы продолжить</p>
         </div>
-        <form>
+        <form method="dialog">
           <button type="submit" class="button submit-button">
-            <span>OK</span>
+            <span class="button__text">OK</span>
           </button>
         </form>
       </dialog>
-    </div>
+    </main>
     <script src="./scripts/like.js"></script>
   </body>
 </html>
-
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 39 39" class="zero-block-size">
-  <symbol id="floppy"
-    width="39" 
-    height="39" 
-    fill="currentColor"
-    class="floppy-image">
-      <path fill="currentColor" d="M0 0h3v3H0zM0 3h3v3H0zM0 6h3v3H0zM0 9h3v3H0zM0 12h3v3H0zM0 15h3v3H0zM0 18h3v3H0zM0 21h3v3H0zM0 24h3v3H0zM0 27h3v3H0zM0 30h3v3H0zM0 33h3v3H0zM0 36h3v3H0zM33 0v3h-3V0z"/>
-      <path fill="currentColor" d="M30.003 0v3h-3V0zM27 0v3h-3V0zM24 0v3h-3V0zM20.999 0v3h-3V0z"/>
-      <path fill="currentColor" d="M18 0v3h-3V0zM14.999 0v3h-3V0z"/>
-      <path fill="currentColor" d="M12 0v3H9V0zM8.996 0v3h-3V0z"/>
-      <path fill="currentColor" d="M6 0v3H3V0zM36 3v3h-3V3zM8.996 6v3h-3V6zM8.996 3v3h-3V3zM8.996 9v3h-3V9zM30.003 6v3h-3V6zM30.003 3v3h-3V3zM30.003 9v3h-3V9zM24 6v3h-3V6zM24 3v3h-3V3zM24 9v3h-3V9zM30.003 12v3h-3v-3zM27 12v3h-3v-3zM24 12v3h-3v-3zM20.999 12v3h-3v-3z"/>
-      <path fill="currentColor" d="M18 12v3h-3v-3zM14.999 12v3h-3v-3z"/>
-      <path fill="currentColor" d="M12 12v3H9v-3zM8.996 12v3h-3v-3zM33 21v3h-3v-3z"/>
-      <path fill="currentColor" d="M30.003 21v3h-3v-3zM27 21v3h-3v-3zM24 21v3h-3v-3zM20.999 21v3h-3v-3z"/>
-      <path fill="currentColor" d="M18 21v3h-3v-3zM14.999 21v3h-3v-3z"/>
-      <path fill="currentColor" d="M12 21v3H9v-3zM8.996 21v3h-3v-3zM33 24v3h-3v-3zM8.996 24v3h-3v-3zM33 27v3h-3v-3zM8.996 27v3h-3v-3zM33 30v3h-3v-3zM8.996 30v3h-3v-3zM8.996 33v3h-3v-3zM33 33v3h-3v-3zM36 36v3h-3v-3zM33 36v3h-3v-3z"/>
-      <path fill="currentColor" d="M30.003 36v3h-3v-3zM27 36v3h-3v-3zM24 36v3h-3v-3zM20.999 36v3h-3v-3z"/>
-      <path fill="currentColor" d="M18 36v3h-3v-3zM14.999 36v3h-3v-3z"/>
-      <path fill="currentColor" d="M12 36v3H9v-3zM8.996 36v3h-3v-3z"/>
-      <path fill="currentColor" d="M6 36v3H3v-3zM39 39h-3v-3h3zM39 36h-3v-3h3zM39 33h-3v-3h3zM39 30h-3v-3h3zM39 27h-3v-3h3zM39 24h-3v-3h3zM39 21h-3v-3h3zM39 18h-3v-3h3zM39 15h-3v-3h3zM39 12h-3V9h3zM39 9h-3V6h3z"/>
-  </symbol>
-</svg>

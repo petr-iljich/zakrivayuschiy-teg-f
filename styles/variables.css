@@ -14,18 +14,18 @@
   --main-font-size: 18px;
   --accent-font-size: 14px;
 
-  --header-title-size: clamp(3.0625rem, 2.7104rem + 1.5023vw, 4.0625rem);
-  --header-subtitle-size: clamp(0.875rem, 0.6769rem + 0.8451vw, 1.4375rem);
+  --header-logo-size: clamp(3.0625rem, 2.7104rem + 1.5023vw, 4.0625rem);
+  --header-title-size: clamp(0.875rem, 0.6769rem + 0.8451vw, 1.4375rem);
   
   --inline-size: 100%;
-  --floppy-inline-size: 28px;
-  --floppy-block-size: 28px;
+  --floppy-inline-size: 21px;
+  --floppy-block-size: 21px;
 
   --section-border: 2px solid #000;
   --icon-border-color: transparent;
 
   --header-margin: 100px auto;
-  --header-padding: clamp(120px, 50%, 128px) 0;
+  --header-padding: 128px 0;
   
   --watermark-shadow: 
   -1px 0 #fff, 
