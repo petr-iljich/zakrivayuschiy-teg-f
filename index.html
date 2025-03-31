@@ -319,22 +319,20 @@
           </svg>
           <span class="button__text">Cохранить на память</span>
       </button>
-      <dialog id="dialog-window" class="dialog-window">
-        <div class="dialog-container">
-          <div class="floppy-block">
-            <svg class="floppy-image" viewBox="0 0 39 39">
-              <use href="./svg/floppy-test.svg#floppy"/>
-            </svg>
-          </div>
-          <p class="dialog-text">Вставьте дискету, чтобы продолжить</p>
-        </div>
-        <form method="dialog">
-          <button type="submit" class="button submit-button">
-            <span class="button__text">OK</span>
-          </button>
-        </form>
-      </dialog>
     </main>
+    <dialog id="dialog-window" class="dialog-window">
+      <div class="dialog-container">
+        <svg class="dialog-floppy-image" viewBox="0 0 39 39">
+          <use href="./svg/floppy-test.svg#floppy"/>
+        </svg>
+        <p class="dialog-text">Вставьте дискету,&nbsp;чтобы продолжить</p>
+      </div>
+      <form method="dialog">
+        <button type="submit" class="button submit-button">
+          <span class="button__text">OK</span>
+        </button>
+      </form>
+    </dialog>
     <script src="./scripts/like.js"></script>
   </body>
 </html>

@@ -18,8 +18,6 @@
   --header-title-size: clamp(0.875rem, 0.6769rem + 0.8451vw, 1.4375rem);
   
   --inline-size: 100%;
-  --floppy-inline-size: 21px;
-  --floppy-block-size: 21px;
 
   --section-border: 2px solid #000;
   --icon-border-color: transparent;

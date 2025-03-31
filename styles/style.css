@@ -175,14 +175,12 @@
 }
 
 .card__icon-button {
-  --bg-color: #fff;
-
   display: block;
   max-block-size: 38px;
   min-inline-size: 27px;
+  background-color: var(--bg-color);
   box-shadow: none;
   border: none;
-  background-color: var(--bg-color);
   align-items: center;
   border: 2px solid var(--icon-border-color);
   padding: 0;
@@ -240,8 +238,8 @@
 }
 
 .floppy-image {
-  inline-size: var(--floppy-inline-size);
-  block-size: var(--floppy-block-size);
+  inline-size: 21px;
+  block-size: 21px;
   mix-blend-mode: difference;
   position: relative;
   z-index: 1;
@@ -253,13 +251,14 @@
   align-self: center;
   justify-self: center;
   place-items: center;
+  justify-content: center;
+  align-items: center;
   padding: 30px 0;
   background-color: var(--bg-color);
   border: var(--section-border);
   min-inline-size: 353px;
-  max-inline-size: calc(100% - 34px);
 
-  opacity: 50%;
+  opacity: 30%;
 }
 
 .dialog-window[open] {
@@ -272,34 +271,40 @@
   background-color: rgba(0, 0, 0, 0.75);
 }
 
-.floppy-block {
+.dialog-floppy-image {
   display: flex;
   justify-content: start;
   align-items: center;
+  inline-size: 39px;
+  block-size: 39px;
+  flex-shrink: 0;
+  z-index: 1;
 }
 
 .dialog-container {
-  display: flex;
+  display: grid;
+  grid-template-columns: 39px 1fr;
   gap: 20px;
-  place-items: center;
-  inline-size: 257px;
-  max-inline-size: 100%;
+  justify-content: start;
+  align-items: center;
+  justify-self: center;
+  max-inline-size: 293px;
+  inline-size: 100%;
 }
 
 .dialog-text{
+  display: inline-flex;
   font-family: var(--accent-font), fantasy;
   font-size: clamp(0.875rem, 0.875rem + 0vw, 0.875rem);
   font-weight: var(--main-font-weight);
   color: var(--main-color);
   line-height: 150%;
   text-transform: uppercase;
-  max-inline-size: 100%;
-  min-inline-size: 198px;
-  align-self: self-end;
+  inline-size: min-content;
 }
 
 .submit-button {
-  inline-size: 257px;
+  inline-size: 293px;
   border: var(--section-border);
   font-family: var(--accent-font), fantasy;
   font-weight: var(--main-font-weight);
@@ -338,16 +343,24 @@
   }
 
   .floppy-image {
-    --floppy-inline-size: 28px;
-    --floppy-block-size: 28px;
+    inline-size: 28px;
+    block-size: 28px;
   }
 
   .dialog-window {
-    min-inline-size: 353px;
+    min-inline-size: 341px;
     inline-size: 100%;
+  }
+
+  .dialog-container {
+    max-inline-size: 257px;
   }
 
   .dialog-text {
     font-size: clamp(0.875rem, 0.875rem + 0vw, 0.875rem);
+  }
+
+  .submit-button {
+    inline-size: 257px;
   }
 }
