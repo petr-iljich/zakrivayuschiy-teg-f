@@ -257,8 +257,6 @@
   background-color: var(--bg-color);
   border: var(--section-border);
   min-inline-size: 353px;
-
-  opacity: 30%;
 }
 
 .dialog-window[open] {
